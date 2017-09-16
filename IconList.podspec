@@ -30,7 +30,7 @@ A simple class containing a list of icon names
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'IconList/Classes/**/*'
+  s.source_files = 'IconList.swift'
   
   # s.resource_bundles = {
   #   'IconList' => ['IconList/Assets/*.png']

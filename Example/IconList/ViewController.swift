@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import IconList
 
 class ViewController: UIViewController {
+    let icons = IconList()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(icons)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E6E8391F6CDCF9004F04B5 /* IconList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6E8381F6CDCF9004F04B5 /* IconList.swift */; };
 		36713B4D21F0BBDB1F1002A8D798FA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		600B683009E307BA5AA771125D50F1C3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85B14B1F5048388B18322093569563 /* ReplaceMe.swift */; };
 		719F56E2E30B3053BD9F9926FF054B74 /* Pods-IconList_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63797B706629AE232829F41D5198A7D9 /* Pods-IconList_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9ACDC7B7A4463B8D258029ED52BC9112 /* Pods-IconList_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A0DC36562D9EFBB7B64C93F05B6B4 /* Pods-IconList_Example-dummy.m */; };
 		A54284417C26C13511CED1C86B967702 /* Pods-IconList_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE4B60E0942134BBD4BC1C6C28F5EAC /* Pods-IconList_Tests-dummy.m */; };
@@ -34,8 +34,9 @@
 		1AC841FD55F2E5E76FF699E7AFFCE26E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		269B7ED5246BD374DF96DD0E2DF0BD2A /* IconList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IconList-dummy.m"; sourceTree = "<group>"; };
 		2775D0FE95406A8C498FDB4524465ABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		315D9C0C89AFB2D32CA879612C60DBD3 /* IconList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IconList.modulemap; sourceTree = "<group>"; };
-		478EBA9795DF313B8670FB15A150DD4A /* Pods-IconList_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IconList_Example.modulemap"; sourceTree = "<group>"; };
+		27E6E8381F6CDCF9004F04B5 /* IconList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconList.swift; sourceTree = "<group>"; };
+		315D9C0C89AFB2D32CA879612C60DBD3 /* IconList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IconList.modulemap; sourceTree = "<group>"; };
+		478EBA9795DF313B8670FB15A150DD4A /* Pods-IconList_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IconList_Example.modulemap"; sourceTree = "<group>"; };
 		52A02B243258A24844D80051C1D83BF0 /* Pods-IconList_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconList_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5E4EC8AFEA78AE55F1418BB680B50444 /* Pods-IconList_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconList_Tests-resources.sh"; sourceTree = "<group>"; };
 		5F0AA45B41376DD2426B1CB934012364 /* IconList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconList-prefix.pch"; sourceTree = "<group>"; };
@@ -43,17 +44,16 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A77D1E37D2AF268BE4D949A66A99245 /* Pods-IconList_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconList_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D5A0DC36562D9EFBB7B64C93F05B6B4 /* Pods-IconList_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconList_Example-dummy.m"; sourceTree = "<group>"; };
-		8D6B94DA40AD1EDC59B1DABC3891A7A4 /* Pods_IconList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IconList_Example.framework; path = "Pods-IconList_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D6B94DA40AD1EDC59B1DABC3891A7A4 /* Pods_IconList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IconList_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		988BCA2AC175CEDF981C25D28127BF17 /* Pods-IconList_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconList_Example-resources.sh"; sourceTree = "<group>"; };
-		9A85B14B1F5048388B18322093569563 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = IconList/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		9C71D9F715F12452D9A2E79E965B3991 /* Pods-IconList_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconList_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C9DB67D19CD99AFCF535B98249D463D /* IconList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IconList.xcconfig; sourceTree = "<group>"; };
-		9D0F6F5E17DD852374CC8F50459F0DCE /* Pods_IconList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IconList_Tests.framework; path = "Pods-IconList_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0F6F5E17DD852374CC8F50459F0DCE /* Pods_IconList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IconList_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B434E4100C74B811E3332484F2CBFF07 /* Pods-IconList_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconList_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4FAFD7362085C890EFCCAEEB4883AB /* Pods-IconList_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IconList_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CDEC2DC543D96B0DE18547758E917056 /* IconList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IconList.framework; path = IconList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0831F29FDCDB2F42232C132C71F5EF /* Pods-IconList_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IconList_Tests.modulemap"; sourceTree = "<group>"; };
+		CDEC2DC543D96B0DE18547758E917056 /* IconList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IconList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0831F29FDCDB2F42232C132C71F5EF /* Pods-IconList_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IconList_Tests.modulemap"; sourceTree = "<group>"; };
 		D45136CDA90151B4F11FC9AA70A4380C /* Pods-IconList_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconList_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DAE4B60E0942134BBD4BC1C6C28F5EAC /* Pods-IconList_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconList_Tests-dummy.m"; sourceTree = "<group>"; };
 		DD928397D92939F77B6559BA44C80599 /* IconList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconList-umbrella.h"; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		153C2D5359F9870C7A9E173BDD77EF44 /* IconList */ = {
 			isa = PBXGroup;
 			children = (
-				9A85B14B1F5048388B18322093569563 /* ReplaceMe.swift */,
 				1E6032A9FA444D38AB198DD9E10C82DF /* Support Files */,
+				27E6E8381F6CDCF9004F04B5 /* IconList.swift */,
 			);
 			name = IconList;
 			path = ../..;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					7829C1734D9ECDBA988D7E67537B8427 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -321,8 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E6E8391F6CDCF9004F04B5 /* IconList.swift in Sources */,
 				F15B6216475BD542BBB82733FE6BA1F0 /* IconList-dummy.m in Sources */,
-				600B683009E307BA5AA771125D50F1C3 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C9DB67D19CD99AFCF535B98249D463D /* IconList.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -467,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C9DB67D19CD99AFCF535B98249D463D /* IconList.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
