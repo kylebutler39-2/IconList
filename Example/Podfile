@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IconList_Example' do
+  pod 'IconList', :path => '../'
+
+  target 'IconList_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
