@@ -1,0 +1,6 @@
+framework module IconList {
+  umbrella header "IconList-umbrella.h"
+
+  export *
+  module * { export * }
+}

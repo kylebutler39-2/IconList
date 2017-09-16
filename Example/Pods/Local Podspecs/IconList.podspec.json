@@ -1,0 +1,22 @@
+{
+  "name": "IconList",
+  "version": "0.1.0",
+  "summary": "A short description of IconList.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kylebutler39/IconList",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kylebutler39": "kbutler-fish@csumb.edu"
+  },
+  "source": {
+    "git": "https://github.com/kylebutler39/IconList.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IconList/Classes/**/*"
+}

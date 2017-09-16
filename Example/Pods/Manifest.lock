@@ -1,0 +1,16 @@
+PODS:
+  - IconList (0.1.0)
+
+DEPENDENCIES:
+  - IconList (from `../`)
+
+EXTERNAL SOURCES:
+  IconList:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IconList: 771add52d21a2beb7315c192892d3ce9a9c80a74
+
+PODFILE CHECKSUM: e14e27d66a8422d51578e3596bdf8e3839f65f76
+
+COCOAPODS: 1.3.1
