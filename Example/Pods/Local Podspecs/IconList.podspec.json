@@ -1,8 +1,8 @@
 {
   "name": "IconList",
   "version": "0.1.0",
-  "summary": "A short description of IconList.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A class containing a list of icon names",
+  "description": "A simple class containing a list of icon names",
   "homepage": "https://github.com/kylebutler39/IconList",
   "license": {
     "type": "MIT",
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "IconList/Classes/**/*"
+  "source_files": "IconList.swift"
 }

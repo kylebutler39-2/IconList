@@ -9,17 +9,19 @@
 import Foundation
 
 public class IconList {
-    var icons = [
-        "No Icon",
-        "Appointments",
-        "Birthdays",
-        "Chores",
-        "Drinks",
-        "Folder",
-        "Groceries",
-        "Inbox",
-        "Photos",
-        "Trips" ]
     
-    public init() {}
+    public class func getIcons() -> Array<String> {
+        let icons = [
+            "No Icon",
+            "Appointments",
+            "Birthdays",
+            "Chores",
+            "Drinks",
+            "Folder",
+            "Groceries",
+            "Inbox",
+            "Photos",
+            "Trips" ]
+        return icons
+    }
 }

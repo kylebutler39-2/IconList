@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27E6E8391F6CDCF9004F04B5 /* IconList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6E8381F6CDCF9004F04B5 /* IconList.swift */; };
+		1C690D6C8406E897C8C56419692B6D70 /* IconList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4955F6EA697ABCC7BBFB2898992A779F /* IconList-dummy.m */; };
 		36713B4D21F0BBDB1F1002A8D798FA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		719F56E2E30B3053BD9F9926FF054B74 /* Pods-IconList_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63797B706629AE232829F41D5198A7D9 /* Pods-IconList_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965A03B82E823AB7A2FA61E9E0F6D6B0 /* IconList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93021490697269E4E92B2E94DD0FA4E9 /* IconList.swift */; };
 		9ACDC7B7A4463B8D258029ED52BC9112 /* Pods-IconList_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A0DC36562D9EFBB7B64C93F05B6B4 /* Pods-IconList_Example-dummy.m */; };
 		A54284417C26C13511CED1C86B967702 /* Pods-IconList_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE4B60E0942134BBD4BC1C6C28F5EAC /* Pods-IconList_Tests-dummy.m */; };
 		AB9EDD0EDB8CCD6FCFD04C682515C8B1 /* Pods-IconList_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9BB893689F87A8D5AF5782B5D6D1DA /* Pods-IconList_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B402D8FCD737E7604809051D74A2FFB0 /* IconList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD928397D92939F77B6559BA44C80599 /* IconList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B402D8FCD737E7604809051D74A2FFB0 /* IconList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FAD81AA1D8D71CB423EC7D147FBBFF /* IconList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEFAE37E25849F427612AEA80FA05203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E4CF57F46A33942369CE087A8DD341AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F15B6216475BD542BBB82733FE6BA1F0 /* IconList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 269B7ED5246BD374DF96DD0E2DF0BD2A /* IconList-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,32 +31,32 @@
 
 /* Begin PBXFileReference section */
 		1633F4C1DFEE7C524E4AC8F98E88030B /* Pods-IconList_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconList_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1AC841FD55F2E5E76FF699E7AFFCE26E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		269B7ED5246BD374DF96DD0E2DF0BD2A /* IconList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IconList-dummy.m"; sourceTree = "<group>"; };
+		1D5F9FD417A0DCF7F917318C9733E19A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2775D0FE95406A8C498FDB4524465ABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27E6E8381F6CDCF9004F04B5 /* IconList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconList.swift; sourceTree = "<group>"; };
-		315D9C0C89AFB2D32CA879612C60DBD3 /* IconList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IconList.modulemap; sourceTree = "<group>"; };
-		478EBA9795DF313B8670FB15A150DD4A /* Pods-IconList_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IconList_Example.modulemap"; sourceTree = "<group>"; };
+		478EBA9795DF313B8670FB15A150DD4A /* Pods-IconList_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IconList_Example.modulemap"; sourceTree = "<group>"; };
+		4955F6EA697ABCC7BBFB2898992A779F /* IconList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IconList-dummy.m"; sourceTree = "<group>"; };
 		52A02B243258A24844D80051C1D83BF0 /* Pods-IconList_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconList_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5E4EC8AFEA78AE55F1418BB680B50444 /* Pods-IconList_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconList_Tests-resources.sh"; sourceTree = "<group>"; };
-		5F0AA45B41376DD2426B1CB934012364 /* IconList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconList-prefix.pch"; sourceTree = "<group>"; };
 		63797B706629AE232829F41D5198A7D9 /* Pods-IconList_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IconList_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67BF160FEECCBFB86415265AFBDED32E /* IconList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconList-prefix.pch"; sourceTree = "<group>"; };
 		6A77D1E37D2AF268BE4D949A66A99245 /* Pods-IconList_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconList_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D5A0DC36562D9EFBB7B64C93F05B6B4 /* Pods-IconList_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconList_Example-dummy.m"; sourceTree = "<group>"; };
-		8D6B94DA40AD1EDC59B1DABC3891A7A4 /* Pods_IconList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IconList_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D6B94DA40AD1EDC59B1DABC3891A7A4 /* Pods_IconList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IconList_Example.framework; path = "Pods-IconList_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F717CFF34933A8F4FE58CC9E66467CD /* IconList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IconList.xcconfig; sourceTree = "<group>"; };
+		93021490697269E4E92B2E94DD0FA4E9 /* IconList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IconList.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		988BCA2AC175CEDF981C25D28127BF17 /* Pods-IconList_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconList_Example-resources.sh"; sourceTree = "<group>"; };
 		9C71D9F715F12452D9A2E79E965B3991 /* Pods-IconList_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconList_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9C9DB67D19CD99AFCF535B98249D463D /* IconList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IconList.xcconfig; sourceTree = "<group>"; };
-		9D0F6F5E17DD852374CC8F50459F0DCE /* Pods_IconList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IconList_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0F6F5E17DD852374CC8F50459F0DCE /* Pods_IconList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IconList_Tests.framework; path = "Pods-IconList_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B434E4100C74B811E3332484F2CBFF07 /* Pods-IconList_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconList_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2FAD81AA1D8D71CB423EC7D147FBBFF /* IconList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconList-umbrella.h"; sourceTree = "<group>"; };
+		CA19C3E9DC7F0097D18CA16368F3F151 /* IconList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IconList.modulemap; sourceTree = "<group>"; };
 		CC4FAFD7362085C890EFCCAEEB4883AB /* Pods-IconList_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IconList_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CDEC2DC543D96B0DE18547758E917056 /* IconList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IconList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0831F29FDCDB2F42232C132C71F5EF /* Pods-IconList_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IconList_Tests.modulemap"; sourceTree = "<group>"; };
+		CDEC2DC543D96B0DE18547758E917056 /* IconList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IconList.framework; path = IconList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0831F29FDCDB2F42232C132C71F5EF /* Pods-IconList_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IconList_Tests.modulemap"; sourceTree = "<group>"; };
 		D45136CDA90151B4F11FC9AA70A4380C /* Pods-IconList_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconList_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DAE4B60E0942134BBD4BC1C6C28F5EAC /* Pods-IconList_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconList_Tests-dummy.m"; sourceTree = "<group>"; };
-		DD928397D92939F77B6559BA44C80599 /* IconList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconList-umbrella.h"; sourceTree = "<group>"; };
 		E2B05A91D170362F32D6CC1B97147F38 /* Pods-IconList_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IconList_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E2B85851B969525648B10CDB08BA65DB /* Pods-IconList_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconList_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3C7A90D13552D32CE1D88D08B61CEC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,30 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		153C2D5359F9870C7A9E173BDD77EF44 /* IconList */ = {
-			isa = PBXGroup;
-			children = (
-				1E6032A9FA444D38AB198DD9E10C82DF /* Support Files */,
-				27E6E8381F6CDCF9004F04B5 /* IconList.swift */,
-			);
-			name = IconList;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1E6032A9FA444D38AB198DD9E10C82DF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				315D9C0C89AFB2D32CA879612C60DBD3 /* IconList.modulemap */,
-				9C9DB67D19CD99AFCF535B98249D463D /* IconList.xcconfig */,
-				269B7ED5246BD374DF96DD0E2DF0BD2A /* IconList-dummy.m */,
-				5F0AA45B41376DD2426B1CB934012364 /* IconList-prefix.pch */,
-				DD928397D92939F77B6559BA44C80599 /* IconList-umbrella.h */,
-				1AC841FD55F2E5E76FF699E7AFFCE26E /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/IconList";
-			sourceTree = "<group>";
-		};
 		5E0B54005F01E6E75D3BE9C797B1C937 /* Pods-IconList_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +108,16 @@
 			);
 			name = "Pods-IconList_Tests";
 			path = "Target Support Files/Pods-IconList_Tests";
+			sourceTree = "<group>";
+		};
+		7A32BB5671C2665C4D0CF4A8F99D3C39 /* IconList */ = {
+			isa = PBXGroup;
+			children = (
+				93021490697269E4E92B2E94DD0FA4E9 /* IconList.swift */,
+				ECBEC544C8874C3BE4CBC677A2C4E386 /* Support Files */,
+			);
+			name = IconList;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -156,7 +142,7 @@
 		CCB6771138A0C2F1C61EFC4D164B83EB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				153C2D5359F9870C7A9E173BDD77EF44 /* IconList */,
+				7A32BB5671C2665C4D0CF4A8F99D3C39 /* IconList */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -167,6 +153,20 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		ECBEC544C8874C3BE4CBC677A2C4E386 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA19C3E9DC7F0097D18CA16368F3F151 /* IconList.modulemap */,
+				8F717CFF34933A8F4FE58CC9E66467CD /* IconList.xcconfig */,
+				4955F6EA697ABCC7BBFB2898992A779F /* IconList-dummy.m */,
+				67BF160FEECCBFB86415265AFBDED32E /* IconList-prefix.pch */,
+				C2FAD81AA1D8D71CB423EC7D147FBBFF /* IconList-umbrella.h */,
+				1D5F9FD417A0DCF7F917318C9733E19A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IconList";
 			sourceTree = "<group>";
 		};
 		F4207DCE504C3A5E4735CB69F4698071 /* Products */ = {
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0522BFAD7C5B332D740D2318D516505 /* Build configuration list for PBXNativeTarget "IconList" */;
 			buildPhases = (
-				7FA8306F8F14F3D68FC277811861858C /* Sources */,
+				6FC229FC1C6C0D6CDCC1CDA14B2F58B8 /* Sources */,
 				E4BCF2BE388A19C886CB73895B736078 /* Frameworks */,
 				8C61648C8E8FE48A86E96327278AA17C /* Headers */,
 			);
@@ -296,11 +296,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					7829C1734D9ECDBA988D7E67537B8427 = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,12 +317,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7FA8306F8F14F3D68FC277811861858C /* Sources */ = {
+		6FC229FC1C6C0D6CDCC1CDA14B2F58B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E6E8391F6CDCF9004F04B5 /* IconList.swift in Sources */,
-				F15B6216475BD542BBB82733FE6BA1F0 /* IconList-dummy.m in Sources */,
+				1C690D6C8406E897C8C56419692B6D70 /* IconList-dummy.m in Sources */,
+				965A03B82E823AB7A2FA61E9E0F6D6B0 /* IconList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,9 +430,8 @@
 		};
 		1BE9B61D0EC95F2FF5841013BDFFC4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C9DB67D19CD99AFCF535B98249D463D /* IconList.xcconfig */;
+			baseConfigurationReference = 8F717CFF34933A8F4FE58CC9E66467CD /* IconList.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -471,9 +465,8 @@
 		};
 		50B5BE65170BFC47C575A74DBDEBB47A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C9DB67D19CD99AFCF535B98249D463D /* IconList.xcconfig */;
+			baseConfigurationReference = 8F717CFF34933A8F4FE58CC9E66467CD /* IconList.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

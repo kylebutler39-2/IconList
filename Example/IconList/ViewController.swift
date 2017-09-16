@@ -10,7 +10,7 @@ import UIKit
 import IconList
 
 class ViewController: UIViewController {
-    let icons = IconList()
+    let icons = IconList.getIcons()
 
     override func viewDidLoad() {
         super.viewDidLoad()
