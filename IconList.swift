@@ -15,6 +15,7 @@ public class IconList {
             "No Icon",
             "Appointments",
             "Birthdays",
+            "Checklist",
             "Chores",
             "Drinks",
             "Folder",
